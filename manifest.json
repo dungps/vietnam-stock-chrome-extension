@@ -1,0 +1,18 @@
+{
+    "name": "Vietnam Stock",
+    "description": "Vietnam Stock",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_title": "Vietnam Stock",
+        "default_icon": "assets/icons/icon.png",
+        "default_popup": "public/popup.html"
+    },
+    "options_ui": {
+        "page": "public/option.html"
+    },
+    "permissions": [
+        "storage",
+        "activeTab"
+    ]
+}
